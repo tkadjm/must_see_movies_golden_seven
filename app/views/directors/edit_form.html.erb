@@ -7,7 +7,7 @@
 
 <h1>Edit Director</h1>
 
-  <form action="http://localhost:3000/update_director/<%=@director.id%>">
+  <form action="http://localhost:3000/update_director/<%= @identifier %>">
     <div>
       <label for="director_name">Name:</label>
       <input id="director_name" type="string" name="the_name" value="<%=@director.name%>">

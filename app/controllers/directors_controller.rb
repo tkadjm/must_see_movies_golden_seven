@@ -34,7 +34,7 @@ class DirectorsController < ApplicationController
   def edit_form
     id = params["id"].to_i
     @director = Director.find(id)
-    @iden = id
+    @identifier = id
   end
 
   def update_row
