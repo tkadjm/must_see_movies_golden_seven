@@ -9,7 +9,7 @@ class DirectorsController < ApplicationController
     @dob = Director.find(id).dob
     @bio = Director.find(id).bio
     @photo = Director.find(id).image_url
-    @id = id
+    @iden = id
   end
 
   def new_form
